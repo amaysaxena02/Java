@@ -1,6 +1,7 @@
 public class test {
     public static void main(String args[])
     {
+        
         System.out.println("hello");
 
         String name = "Ashu";
@@ -26,6 +27,13 @@ public class test {
         {
             boolean myBool = false;
             System.out.println(myBool);
-        }  
+        }
+
+        //area of rect
+        int width = 10;
+        int length = 13;
+        int area;
+        area = length*width;
+        System.out.println(area);
     }
 }

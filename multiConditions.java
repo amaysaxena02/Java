@@ -27,6 +27,8 @@ public class multiConditions {
             case "%":
                 System.out.println("\nResult: "+(x%z));
                 break;    
+            default:
+                System.out.println("\nEnter a valid operation from \"+,-,/,*,%\"");    
         }
       scanner.close();  
     }
